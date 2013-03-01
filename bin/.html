@@ -1,0 +1,177 @@
+<!DOCTYPE html><html><head><title>test.xml</title><meta http-equiv="Content-Type" content="text/html" charset="UTF-8"><link rel="stylesheet" media="all" href="docco.css"></head><body><div id="container"><div id="background"></div><table cellpadding="0" cellspacing="0"><tbody><tr id="section-1"><td class="docs"></td><td class="code"><div class="highlight"><pre><span class="nt">&lt;lido:lidoWrap</span> 
+  <span class="na">xmlns:lido=</span><span class="s">&quot;http://www.lido-schema.org&quot;</span> 
+  <span class="na">xmlns:xsi=</span><span class="s">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span> 
+  <span class="na">xsi:schemaLocation=</span><span class="s">&quot;http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd&quot;</span><span class="nt">&gt;</span> 
+  <span class="nt">&lt;lido:lido&gt;</span>
+</pre></div></td></tr><tr id="section-2"><td class="docs"><div class="arrow"></div><p>vakio "M015:" + luettelonumero</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nt">&lt;lido:lidoRecID</span> <span class="na">lido:type=</span><span class="s">&quot;NDL&quot;</span><span class="nt">&gt;</span>M015:E121<span class="nt">&lt;/lido:lidoRecID&gt;</span>
+    <span class="nt">&lt;lido:descriptiveMetadata</span> <span class="na">xml:lang=</span><span class="s">&quot;fi&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;lido:objectClassificationWrap&gt;</span>
+        <span class="nt">&lt;lido:objectWorkTypeWrap&gt;</span>
+          <span class="nt">&lt;lido:objectWorkType&gt;</span>
+</pre></div></td></tr><tr id="section-3"><td class="docs"><div class="arrow"></div><p>Kuva->Aineistotyyppi</p>
+</td><td class="code"><div class="highlight"><pre>            <span class="nt">&lt;lido:term&gt;</span>Valokuva<span class="nt">&lt;/lido:term&gt;</span>
+          <span class="nt">&lt;/lido:objectWorkType&gt;</span>
+        <span class="nt">&lt;/lido:objectWorkTypeWrap&gt;</span>
+        <span class="nt">&lt;lido:classificationWrap&gt;</span>
+</pre></div></td></tr><tr id="section-4"><td class="docs"><div class="arrow"></div><p>Tämä elementti kertautuu jokaiselle OCM-luokitukselle</p>
+</td><td class="code"><div class="highlight"><pre>          <span class="nt">&lt;lido:classification</span> <span class="na">lido:type=</span><span class="s">&quot;OCM&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;lido:conceptID&gt;</span>
+</pre></div></td></tr><tr id="section-5"><td class="docs"><div class="arrow"></div><p>Luokituksen numero-osa</p>
+</td><td class="code"><div class="highlight"><pre>              1231
+            <span class="nt">&lt;/lido:conceptID&gt;</span> 
+            <span class="nt">&lt;lido:term&gt;</span>
+</pre></div></td></tr><tr id="section-6"><td class="docs"><div class="arrow"></div><p>Luokituksen termiosa</p>
+</td><td class="code"><div class="highlight"><pre>              testi
+            <span class="nt">&lt;/lido:term&gt;</span>
+          <span class="nt">&lt;/lido:classification&gt;</span>
+          <span class="nt">&lt;lido:classification</span> <span class="na">lido:type=</span><span class="s">&quot;tyyppi&quot;</span><span class="nt">&gt;</span>
+</pre></div></td></tr><tr id="section-7"><td class="docs"><div class="arrow"></div><p>Kuva->Tyyppi</p>
+</td><td class="code"><div class="highlight"><pre>            <span class="nt">&lt;lido:term&gt;</span>Diapositiivi<span class="nt">&lt;/lido:term&gt;</span>
+          <span class="nt">&lt;/lido:classification&gt;</span>
+        <span class="nt">&lt;/lido:classificationWrap&gt;</span>
+      <span class="nt">&lt;/lido:objectClassificationWrap&gt;</span>
+      <span class="nt">&lt;lido:objectIdentificationWrap&gt;</span>
+        <span class="nt">&lt;lido:titleWrap&gt;</span>
+          <span class="nt">&lt;lido:titleSet&gt;</span>
+            <span class="nt">&lt;lido:appellationValue&gt;</span>
+</pre></div></td></tr><tr id="section-8"><td class="docs"><div class="arrow"></div><p>Aihe/Kuvan aihe</p>
+</td><td class="code"><div class="highlight"><pre>              Esimerkki aiheesta, lorum ipsum dorem
+            <span class="nt">&lt;/lido:appellationValue&gt;</span>
+          <span class="nt">&lt;/lido:titleSet&gt;</span>
+        <span class="nt">&lt;/lido:titleWrap&gt;</span>
+</pre></div></td></tr><tr id="section-9"><td class="docs"></td><td class="code"><div class="highlight"><pre>        <span class="nt">&lt;lido:repositoryWrap&gt;</span>
+          <span class="nt">&lt;lido:repositorySet&gt;</span>
+            <span class="nt">&lt;lido:repositoryName&gt;</span>
+              <span class="nt">&lt;lido:legalBodyName&gt;</span>
+</pre></div></td></tr><tr id="section-10"><td class="docs"><div class="arrow"></div><p>Museon nimi</p>
+</td><td class="code"><div class="highlight"><pre>                <span class="nt">&lt;lido:appellationValue&gt;</span>Museokeskus Vapriikki<span class="nt">&lt;/lido:appellationValue&gt;</span>
+              <span class="nt">&lt;/lido:legalBodyName&gt;</span>
+              <span class="nt">&lt;lido:legalBodyWeblink&gt;</span>http://siiri.tampere.fi<span class="nt">&lt;/lido:legalBodyWeblink&gt;</span>
+            <span class="nt">&lt;/lido:repositoryName&gt;</span>
+</pre></div></td></tr><tr id="section-11"><td class="docs"><div class="arrow"></div><p>Luettelonumero</p>
+</td><td class="code"><div class="highlight"><pre>            <span class="nt">&lt;lido:workID&gt;</span>E32423<span class="nt">&lt;/lido:workID&gt;</span>
+          <span class="nt">&lt;/lido:repositorySet&gt;</span>
+        <span class="nt">&lt;/lido:repositoryWrap&gt;</span>
+        <span class="nt">&lt;lido:objectDescriptionWrap&gt;</span>
+          <span class="nt">&lt;lido:objectDescriptionSet</span> <span class="na">lido:type=</span><span class="s">&quot;kuvaus&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;lido:descriptiveNoteValue&gt;</span>
+</pre></div></td></tr><tr id="section-12"><td class="docs"><div class="arrow"></div><p>Kuvaus</p>
+</td><td class="code"><div class="highlight"><pre>              Lorem ipsum dorus dolor sit amet 
+            <span class="nt">&lt;/lido:descriptiveNoteValue&gt;</span>
+          <span class="nt">&lt;/lido:objectDescriptionSet&gt;</span>
+        <span class="nt">&lt;/lido:objectDescriptionWrap&gt;</span>
+        <span class="nt">&lt;lido:objectMeasurementsWrap&gt;</span>
+          <span class="nt">&lt;lido:objectMeasurementsSet&gt;</span>
+            <span class="nt">&lt;lido:displayObjectMeasurements&gt;</span>
+              30 cm x 25 cm
+            <span class="nt">&lt;/lido:displayObjectMeasurements&gt;</span>
+          <span class="nt">&lt;/lido:objectMeasurementsSet&gt;</span>
+        <span class="nt">&lt;/lido:objectMeasurementsWrap&gt;</span>
+      <span class="nt">&lt;/lido:objectIdentificationWrap&gt;</span>
+      <span class="nt">&lt;lido:eventWrap&gt;</span>
+        <span class="nt">&lt;lido:eventSet&gt;</span>
+          <span class="nt">&lt;lido:event&gt;</span>
+            <span class="nt">&lt;lido:eventType&gt;</span>
+              <span class="nt">&lt;lido:term&gt;</span>valmistus<span class="nt">&lt;/lido:term&gt;</span>
+            <span class="nt">&lt;/lido:eventType&gt;</span>
+            <span class="nt">&lt;lido:eventActor&gt;</span>
+              <span class="nt">&lt;lido:actorInRole&gt;</span>
+                <span class="nt">&lt;lido:actor&gt;</span>
+                  <span class="nt">&lt;lido:nameActorSet&gt;</span>
+                    <span class="nt">&lt;lido:appellationValue&gt;</span>
+</pre></div></td></tr><tr id="section-13"><td class="docs"><div class="arrow"></div><p>Suunnittelijan/valmistajan nimi</p>
+</td><td class="code"><div class="highlight"><pre>                      Eerik Esimerkki
+                    <span class="nt">&lt;/lido:appellationValue&gt;</span>
+                  <span class="nt">&lt;/lido:nameActorSet&gt;</span>
+                <span class="nt">&lt;/lido:actor&gt;</span>
+                <span class="nt">&lt;lido:roleActor&gt;</span>
+</pre></div></td></tr><tr id="section-14"><td class="docs"><div class="arrow"></div><p>"suunnittelija" / "valmistaja"</p>
+</td><td class="code"><div class="highlight"><pre>                  <span class="nt">&lt;lido:term&gt;</span>suunnittelija<span class="nt">&lt;/lido:term&gt;</span>
+                <span class="nt">&lt;/lido:roleActor&gt;</span>
+              <span class="nt">&lt;/lido:actorInRole&gt;</span>
+            <span class="nt">&lt;/lido:eventActor&gt;</span>
+            <span class="nt">&lt;lido:eventDate&gt;</span>
+</pre></div></td></tr><tr id="section-15"><td class="docs"><div class="arrow"></div><p>Valmistustiedot/Perus/ Ajoitus</p>
+</td><td class="code"><div class="highlight"><pre>              <span class="nt">&lt;lido:displayDate&gt;</span>1890-1910-luku<span class="nt">&lt;/lido:displayDate&gt;</span>
+              <span class="nt">&lt;lido:date&gt;</span>
+</pre></div></td></tr><tr id="section-16"><td class="docs"><div class="arrow"></div><p>Valmistustiedot/ Valmistusaika-arvion alku</p>
+</td><td class="code"><div class="highlight"><pre>                <span class="nt">&lt;lido:earliestDate&gt;</span>1890<span class="nt">&lt;/lido:earliestDate&gt;</span>
+</pre></div></td></tr><tr id="section-17"><td class="docs"><div class="arrow"></div><p>Valmistustiedot/ Valmistusaika-arvion loppu</p>
+</td><td class="code"><div class="highlight"><pre>                <span class="nt">&lt;lido:latestDate&gt;</span>1919<span class="nt">&lt;/lido:latestDate&gt;</span>
+              <span class="nt">&lt;/lido:date&gt;</span>
+            <span class="nt">&lt;/lido:eventDate&gt;</span>
+            <span class="nt">&lt;lido:eventPlace&gt;</span>
+</pre></div></td></tr><tr id="section-18"><td class="docs"><div class="arrow"></div><p>Valmistuspaikka</p>
+</td><td class="code"><div class="highlight"><pre>              <span class="nt">&lt;lido:displayPlace&gt;</span>Tampere<span class="nt">&lt;/lido:displayPlace&gt;</span>
+            <span class="nt">&lt;/lido:eventPlace&gt;</span>
+            <span class="nt">&lt;lido:eventMaterialsTech&gt;</span>
+              <span class="nt">&lt;lido:displayMaterialsTech&gt;</span>
+                Puupaperi, Konepainatus, Liimaväri
+              <span class="nt">&lt;/lido:displayMaterialsTech&gt;</span>
+              <span class="nt">&lt;lido:materialsTech&gt;</span>
+                <span class="nt">&lt;lido:termMaterialsTech</span> <span class="na">lido:type=</span><span class="s">&quot;materiaali&quot;</span><span class="nt">&gt;</span>
+                  <span class="nt">&lt;lido:term&gt;</span>Puupaperi<span class="nt">&lt;/lido:term&gt;</span>
+                <span class="nt">&lt;/lido:termMaterialsTech&gt;</span>
+                <span class="nt">&lt;lido:termMaterialsTech</span> <span class="na">lido:type=</span><span class="s">&quot;tekniikka&quot;</span><span class="nt">&gt;</span>
+                  <span class="nt">&lt;lido:term&gt;</span>Konepainatus<span class="nt">&lt;/lido:term&gt;</span>
+                <span class="nt">&lt;/lido:termMaterialsTech&gt;</span>
+                <span class="nt">&lt;lido:termMaterialsTech</span> <span class="na">lido:type=</span><span class="s">&quot;tekniikka&quot;</span><span class="nt">&gt;</span>
+                  <span class="nt">&lt;lido:term&gt;</span>Liimaväri<span class="nt">&lt;/lido:term&gt;</span>
+                <span class="nt">&lt;/lido:termMaterialsTech&gt;</span>
+              <span class="nt">&lt;/lido:materialsTech&gt;</span>
+            <span class="nt">&lt;/lido:eventMaterialsTech&gt;</span>
+          <span class="nt">&lt;/lido:event&gt;</span>
+        <span class="nt">&lt;/lido:eventSet&gt;</span>
+        <span class="nt">&lt;lido:eventSet&gt;</span>
+          <span class="nt">&lt;lido:event&gt;</span>
+            <span class="nt">&lt;lido:eventType&gt;</span>
+              <span class="nt">&lt;lido:term&gt;</span>käyttö<span class="nt">&lt;/lido:term&gt;</span>
+            <span class="nt">&lt;/lido:eventType&gt;</span>
+            <span class="nt">&lt;lido:eventPlace&gt;</span>
+              <span class="nt">&lt;lido:displayPlace&gt;</span>Risto Miettisen tila<span class="nt">&lt;/lido:displayPlace&gt;</span>
+            <span class="nt">&lt;/lido:eventPlace&gt;</span>
+          <span class="nt">&lt;/lido:event&gt;</span>
+        <span class="nt">&lt;/lido:eventSet&gt;</span>
+      <span class="nt">&lt;/lido:eventWrap&gt;</span>
+      <span class="nt">&lt;lido:objectRelationWrap&gt;</span>
+        <span class="nt">&lt;lido:relatedWorksWrap&gt;</span>
+          <span class="nt">&lt;lido:relatedWorksSet&gt;</span>
+            <span class="nt">&lt;lido:relatedWork&gt;</span>
+</pre></div></td></tr><tr id="section-19"><td class="docs"><div class="arrow"></div><p>kokoelman nimi</p>
+</td><td class="code"><div class="highlight"><pre>              <span class="nt">&lt;lido:displayObject&gt;</span>Esimerkkikokoelma<span class="nt">&lt;/lido:displayObject&gt;</span>
+            <span class="nt">&lt;/lido:relatedWork&gt;</span>
+</pre></div></td></tr><tr id="section-20"><td class="docs"><div class="arrow"></div><p>vakio</p>
+</td><td class="code"><div class="highlight"><pre>            <span class="nt">&lt;lido:relatedWorkRelType&gt;</span>kokoelma<span class="nt">&lt;/lido:relatedWorkRelType&gt;</span>
+          <span class="nt">&lt;/lido:relatedWorksSet&gt;</span>
+        <span class="nt">&lt;/lido&gt;</span>
+      <span class="nt">&lt;/lido:objectRelationWrap&gt;</span>
+    <span class="nt">&lt;/lido:descriptiveMetadata&gt;</span>
+    <span class="nt">&lt;lido:administrativeMetadata</span> <span class="na">xml:lang=</span><span class="s">&quot;fi&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;lido:recordWrap&gt;</span>
+</pre></div></td></tr><tr id="section-21"><td class="docs"><div class="arrow"></div><p>Järjestelmän ID objektille</p>
+</td><td class="code"><div class="highlight"><pre>        <span class="nt">&lt;lido:recordID</span> <span class="na">lido:type=</span><span class="s">&quot;local&quot;</span><span class="nt">&gt;</span>23423<span class="nt">&lt;/lido:recordID&gt;</span>
+        <span class="nt">&lt;lido:recordType&gt;</span>
+          <span class="nt">&lt;lido:term</span> <span class="na">xml:lang=</span><span class="s">&quot;en&quot;</span><span class="nt">&gt;</span>item<span class="nt">&lt;/lido:term&gt;</span>
+        <span class="nt">&lt;/lido:recordType&gt;</span>
+        <span class="nt">&lt;lido:recordSource&gt;</span>
+          <span class="nt">&lt;lido:legalBodyName&gt;</span>
+            <span class="nt">&lt;lido:appellationValue&gt;</span>Tapettitietokanta<span class="nt">&lt;/lido:appellationValue&gt;</span>
+          <span class="nt">&lt;/lido:legalBodyName&gt;</span>
+          <span class="nt">&lt;lido:legalBodyWeblink&gt;</span>http://tapetti.nba.fi<span class="nt">&lt;/lido:legalBodyWeblink&gt;</span>
+        <span class="nt">&lt;/lido:recordSource&gt;</span>
+      <span class="nt">&lt;/lido:recordWrap&gt;</span>
+      <span class="nt">&lt;lido:resourceWrap&gt;</span>
+        <span class="nt">&lt;lido:resourceSet&gt;</span>
+          <span class="nt">&lt;lido:resourceRepresentation&gt;</span>
+            <span class="nt">&lt;lido:linkResource&gt;</span>
+              http://tapetti.nba.fi/pic.php?t=1<span class="ni">&amp;amp;</span>p=1,1.JPG
+            <span class="nt">&lt;/lido:linkResource&gt;</span>
+          <span class="nt">&lt;/lido:resourceRepresentation&gt;</span>
+        <span class="nt">&lt;/lido:resourceSet&gt;</span>
+      <span class="nt">&lt;/lido:resourceWrap&gt;</span>
+    <span class="nt">&lt;/lido:administrativeMetadata&gt;</span>
+  <span class="nt">&lt;/lido:lido&gt;</span>
+<span class="nt">&lt;/lido:lidoWrap&gt;</span>
+
+</pre></div></td></tr></tbody></table><div id="generated">generated Fri Mar 01 2013 10:05:10 GMT+0200 (FLE Standard Time)  </div></div></body></html>#      include includes/project_name

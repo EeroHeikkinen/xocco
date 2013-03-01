@@ -1,0 +1,52 @@
+{
+  "name": "xocco",
+  "description": "Generated static project documentation primarily for XML files. A fork of Docco-husky",
+  "keywords": [
+    "documentation",
+    "docs",
+    "generator",
+    "coffeescript"
+	"xml"
+  ],
+  "author": "Eero Heikkinen <eero.heikkinen@gmail.com>",
+  "version": "0.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "contributors": [
+    "Eero Heikkinen <eero.heikkinen@gmail.com>",
+  ],
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mbrevoort/docco-husky.git"
+  },
+  "dependencies": {
+    "coffee-script": "latest",
+    "dox": "0.1.2",
+    "jade": "0.17.0",
+    "gravatar": "1.0.3",
+    "underscore": "1.2.x",
+    "walk": "2.0.2"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/docco",
+  "bin": {
+    "docco-husky": "./bin/generate"
+  },
+  "scripts": {
+    "install": "scripts/install.sh"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "xocco": {
+	"output_dir": "docs/out",
+  }
+}

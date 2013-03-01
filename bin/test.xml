@@ -1,0 +1,177 @@
+﻿<lido:lidoWrap 
+	xmlns:lido="http://www.lido-schema.org" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd"> 
+	<lido:lido>
+		<!-- vakio "M015:" + luettelonumero -->	
+		<lido:lidoRecID lido:type="NDL">M015:E121</lido:lidoRecID>
+		<lido:descriptiveMetadata xml:lang="fi">
+			<lido:objectClassificationWrap>
+				<lido:objectWorkTypeWrap>
+					<lido:objectWorkType>
+						<!-- Kuva->Aineistotyyppi -->
+						<lido:term>Valokuva</lido:term>
+					</lido:objectWorkType>
+				</lido:objectWorkTypeWrap>
+				<lido:classificationWrap>
+					<!-- Tämä elementti kertautuu jokaiselle OCM-luokitukselle -->
+					<lido:classification lido:type="OCM">
+						<lido:conceptID>
+						<!--Luokituksen numero-osa -->
+							1231
+						</lido:conceptID> 
+						<lido:term>
+						<!--Luokituksen termiosa -->
+							testi
+						</lido:term>
+					</lido:classification>
+					<lido:classification lido:type="tyyppi">
+						<!-- Kuva->Tyyppi -->
+						<lido:term>Diapositiivi</lido:term>
+					</lido:classification>
+				</lido:classificationWrap>
+			</lido:objectClassificationWrap>
+			<lido:objectIdentificationWrap>
+				<lido:titleWrap>
+					<lido:titleSet>
+						<lido:appellationValue>
+							<!-- Aihe/Kuvan aihe -->
+							Esimerkki aiheesta, lorum ipsum dorem
+						</lido:appellationValue>
+					</lido:titleSet>
+				</lido:titleWrap>
+				<!--
+				-->
+				<lido:repositoryWrap>
+					<lido:repositorySet>
+						<lido:repositoryName>
+							<lido:legalBodyName>
+								<!-- Museon nimi -->
+								<lido:appellationValue>Museokeskus Vapriikki</lido:appellationValue>
+							</lido:legalBodyName>
+							<lido:legalBodyWeblink>http://siiri.tampere.fi</lido:legalBodyWeblink>
+						</lido:repositoryName>
+						<!-- Luettelonumero -->
+						<lido:workID>E32423</lido:workID>
+					</lido:repositorySet>
+				</lido:repositoryWrap>
+				<lido:objectDescriptionWrap>
+					<lido:objectDescriptionSet lido:type="kuvaus">
+						<lido:descriptiveNoteValue>
+							<!-- Kuvaus -->
+							Lorem ipsum dorus dolor sit amet 
+						</lido:descriptiveNoteValue>
+					</lido:objectDescriptionSet>
+				</lido:objectDescriptionWrap>
+				<lido:objectMeasurementsWrap>
+					<lido:objectMeasurementsSet>
+						<lido:displayObjectMeasurements>
+							30 cm x 25 cm
+						</lido:displayObjectMeasurements>
+					</lido:objectMeasurementsSet>
+				</lido:objectMeasurementsWrap>
+			</lido:objectIdentificationWrap>
+			<lido:eventWrap>
+				<lido:eventSet>
+					<lido:event>
+						<lido:eventType>
+							<lido:term>valmistus</lido:term>
+						</lido:eventType>
+						<lido:eventActor>
+							<lido:actorInRole>
+								<lido:actor>
+									<lido:nameActorSet>
+										<lido:appellationValue>
+											<!-- Suunnittelijan/valmistajan nimi -->
+											Eerik Esimerkki
+										</lido:appellationValue>
+									</lido:nameActorSet>
+								</lido:actor>
+								<lido:roleActor>
+									<!-- "suunnittelija" / "valmistaja" -->
+									<lido:term>suunnittelija</lido:term>
+								</lido:roleActor>
+							</lido:actorInRole>
+						</lido:eventActor>
+						<lido:eventDate>
+							<!-- Valmistustiedot/Perus/ Ajoitus -->
+							<lido:displayDate>1890-1910-luku</lido:displayDate>
+							<lido:date>
+								<!--Valmistustiedot/ Valmistusaika-arvion alku -->
+								<lido:earliestDate>1890</lido:earliestDate>
+								<!--Valmistustiedot/ Valmistusaika-arvion loppu -->
+								<lido:latestDate>1919</lido:latestDate>
+							</lido:date>
+						</lido:eventDate>
+						<lido:eventPlace>
+							<!-- Valmistuspaikka -->
+							<lido:displayPlace>Tampere</lido:displayPlace>
+						</lido:eventPlace>
+						<lido:eventMaterialsTech>
+							<lido:displayMaterialsTech>
+								Puupaperi, Konepainatus, Liimaväri
+							</lido:displayMaterialsTech>
+							<lido:materialsTech>
+								<lido:termMaterialsTech lido:type="materiaali">
+									<lido:term>Puupaperi</lido:term>
+								</lido:termMaterialsTech>
+								<lido:termMaterialsTech lido:type="tekniikka">
+									<lido:term>Konepainatus</lido:term>
+								</lido:termMaterialsTech>
+								<lido:termMaterialsTech lido:type="tekniikka">
+									<lido:term>Liimaväri</lido:term>
+								</lido:termMaterialsTech>
+							</lido:materialsTech>
+						</lido:eventMaterialsTech>
+					</lido:event>
+				</lido:eventSet>
+				<lido:eventSet>
+					<lido:event>
+						<lido:eventType>
+							<lido:term>käyttö</lido:term>
+						</lido:eventType>
+						<lido:eventPlace>
+							<lido:displayPlace>Risto Miettisen tila</lido:displayPlace>
+						</lido:eventPlace>
+					</lido:event>
+				</lido:eventSet>
+			</lido:eventWrap>
+			<lido:objectRelationWrap>
+				<lido:relatedWorksWrap>
+					<lido:relatedWorksSet>
+						<lido:relatedWork>
+							<!-- kokoelman nimi -->
+							<lido:displayObject>Esimerkkikokoelma</lido:displayObject>
+						</lido:relatedWork>
+						<!-- vakio -->
+						<lido:relatedWorkRelType>kokoelma</lido:relatedWorkRelType>
+					</lido:relatedWorksSet>
+				</lido>
+			</lido:objectRelationWrap>
+		</lido:descriptiveMetadata>
+		<lido:administrativeMetadata xml:lang="fi">
+			<lido:recordWrap>
+				<!-- Järjestelmän ID objektille -->
+				<lido:recordID lido:type="local">23423</lido:recordID>
+				<lido:recordType>
+					<lido:term xml:lang="en">item</lido:term>
+				</lido:recordType>
+				<lido:recordSource>
+					<lido:legalBodyName>
+						<lido:appellationValue>Tapettitietokanta</lido:appellationValue>
+					</lido:legalBodyName>
+					<lido:legalBodyWeblink>http://tapetti.nba.fi</lido:legalBodyWeblink>
+				</lido:recordSource>
+			</lido:recordWrap>
+			<lido:resourceWrap>
+				<lido:resourceSet>
+					<lido:resourceRepresentation>
+						<lido:linkResource>
+							http://tapetti.nba.fi/pic.php?t=1&amp;p=1,1.JPG
+						</lido:linkResource>
+					</lido:resourceRepresentation>
+				</lido:resourceSet>
+			</lido:resourceWrap>
+		</lido:administrativeMetadata>
+	</lido:lido>
+</lido:lidoWrap>
